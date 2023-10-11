@@ -1,0 +1,64 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>EmployeeServlet</servlet-name>
+  	<display-name>EmployeeServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.EmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewServlet</servlet-name>
+  	<display-name>ViewServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.ViewServlet</servlet-class>
+  </servlet>
+ 
+  <servlet>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<display-name>DeleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>controller.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EditServlet1</servlet-name>
+  	<display-name>EditServlet1</display-name>
+  	<description></description>
+  	<servlet-class>controller.EditServlet1</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EditServlet2</servlet-name>
+  	<display-name>EditServlet2</display-name>
+  	<description></description>
+  	<servlet-class>controller.EditServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>EmployeeServlet</servlet-name>
+  	<url-pattern>/EmployeeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewServlet</servlet-name>
+  	<url-pattern>/ViewServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>DeleteServlet</servlet-name>
+  	<url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditServlet1</servlet-name>
+  	<url-pattern>/EditServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditServlet2</servlet-name>
+  	<url-pattern>/EditServlet2</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>  
+    <welcome-file>index.jsp</welcome-file>   
+  </welcome-file-list>
+   
+</web-app>
